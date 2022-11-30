@@ -200,8 +200,8 @@ body{
     height: .2rem;
     background-color: #ccc;
     border-radius: 12px;
-    right: 0;
-    top: 50%;
+    left: 0;
+    top: 105%;
     transform: translateY(-50%);
 }
 

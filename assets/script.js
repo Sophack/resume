@@ -6,7 +6,12 @@ themeButtonEl.on('click', function () {
       $('body').css({ 'background-color': '#4192ada2', color: '#1a1a1a' });
       isDark = !isDark;
     } else {
-      $('body').css({ 'background-color': '#1a1a1a', color: '#d9e9e8' });
+      $('body').css({ 'background-color': '#1a1a1a', color: '#4363b9' });
       isDark = !isDark;
     }
   });
+
+  //when isDark = false, color doesnt change
+  //when isDark = true, the else statement happens
+
+  
