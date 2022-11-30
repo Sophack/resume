@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #4192ada2;
+    background-color: #d9e9e8;
     
 }
 
@@ -34,7 +34,7 @@ body{
     outline: none;
     color: #fbfcfce3;
     background-color: #0a1255db;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
   }
   
   .btn:hover {
