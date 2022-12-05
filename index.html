@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/style.css">
   <script src="./assets/script.js" defer></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Resume</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,37 +24,31 @@
                     <h2 class="name">Saraf Nawar</h2>
                 </div>
                 <div class="contact-info">
-                    <h3 class="main-title">Contact Info</h3>
-                    <ul>
-                        <li>
-                              <i class="fa fa-phone"></i>
-                            416-999-8211
-                        </li>
-                        <li>
-                          <i class="fa fa-map-marker"></i>
-                          Toronto, ON
-                      </li>
-                        <li>
-                          <a href="https://www.facebook.com/tita1994"><i class="fa fa-globe"></i>
-                            sarafnrealtor@gmail.com
-                            </a>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">
                             
-                        </li>
-                        <li>
-                          <a href="https://www.facebook.com/tita1994"><i class="fa fa-facebook"></i>Facebook
-                          </a>
-                        </li>
-                        <li>
-                           <a href="https://www.instagram.com/saraf.maxace/"><i class="fa fa-instagram"></i>Instagram
-                            </a>
-                        </li>
+                                <i class="fa fa-phone"></i>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <br>
+                            Click here for Contact Info</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="tel:416-999-8211">
+                            416-999-8211
+</a>                    </a>
+                          <a href="mailto:sarafnrealtor@gmail.com">Email</a>
+                          <a href="https://www.facebook.com/tita1994">Facebook </a>
+                        <a href="https://www.instagram.com/saraf.maxace/">Instagram </a>
+                        </div>
+                      </div>
+                    
 
-                    </ul>
                 </div>
                 <div class="skills-section">
-                    <button id="theme-btn" class="btn btn-info">Change Theme</button>
+                    <button id="theme-btn" class="btn btn-info">Change Mode</button>
                   
-                    <h3 class="main-title">Areas of Expertise</h3>
+                    <h3 class="main-title">Skills</h3>
                     <ul>
                         <li>
                             <p class="skill-title">Client negotiations</p>
@@ -100,15 +94,11 @@
                         </li>
                         <li>
                             <p class="skill-title">illustrator</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
+                            
                         </li>
                         <li>
                             <p class="skill-title">Wordpress</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
+                            
                         </li>
                     </ul>
                 </div>
@@ -121,14 +111,16 @@
                             <li>
                                 <i class="fa fa-phone"></i>
                                 416-522-2148
---                            </li>
+                          </li>
                             <li>
-                                <i class="fa fa-globe"></i>
-                                bolandrealtor@gmail.com
+                                <a href="mailto:bolandrealtor@gmail.com">
+                                    bolandrealtor@gmail.com
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <div class="referee">
+                        
                         <h6 class="sub-title">Suzin Win</h6>
                         <p class="sub-para">Real Estate Lawyer</p>
                         <ul>
@@ -137,9 +129,9 @@
                                 8579197001
                             </li>
                             <li>
-                                <i class="fa fa-globe"></i>
-                                suzin@sznlaw.com
-                            </li>
+                                <a href="mailto:suzin@sznlaw.com">
+                             suzin@sznlaw.com</a>
+                                </li>
                         </ul>
                     </div>
                     <div class="referee">
@@ -151,8 +143,9 @@
                                 5198039403
                             </li>
                             <li>
-                                <i class="fa fa-globe"></i>
-                                Metzingerellie@gmail.com
+                                
+                                <a href="mailto:metzingerellie@gmail.com">metzingerellie@gmail.com</a>
+        
                             </li>
                         </ul>
                     </div>
@@ -171,29 +164,31 @@
                 <section class="experince sect">
                     <h2 class="right-title">Professional Experience</h2>
                     <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Junior Developer</h5>
+                        <div class="right-tl-content">
+                            <h5 class="tl-title">Freelance Full-stack Developer</h5>
                             <p class="para">2021 - Present</p>
 
-                            </p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Responsibilities</h5>
+                                <h5 class="tl-title-2">UI & UX Professional</h5>
                                 <p class="para">
-                                  ·        Here is where I need help
-                                  ·        Lorem ipsum dolor sit amet
-                                  ·        Lorem ipsum dolor sit amet
-                                  ·        Lorem ipsum dolor sit amet
+                                    <ul></ul>Knowledge of multiple platforms including PC, Mac, Linux, Consoles, iOS/iPadOS, and Android.
+                                    <ul></ul>Working within the strict memory budget limits of mobile phones and cross-platform gaming.
+                                    <ul></ul>Javascript to develop and build mobile applications while working with graphic designers
+                                    <ul class="bullet">Worked with multiple users to help with: 
+                                    <ul>User Interface Design</ul>
+                                    <ul>Icon & Front-End Designer</ul>
+                                    <ul>Tab Designer & Layour Designer</ul>
+                                </ul>
+        
                                   
                                 </p>
                             </div>
                         </div>
                     </div>
-              <section class="experince sect">
-                    <h2 class="right-title">Professional Experience</h2>
                     <div class="timeline">
-                        <div class="left-tl-content">
+                        <div class="right-tl-content">
                             <h5 class="tl-title">Re/Max Ace Realty Inc.</h5>
                             <p class="para">2020 - Present</p>
 
@@ -249,7 +244,7 @@
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title">Livingston International</h5>
-                            <p class="para">2016-2020</p>
+                            <p class="para">2016 - 2020</p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
@@ -265,18 +260,19 @@
                     </div>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Amperslash Toronto</h5>
-                            <p class="para">2014-2016</p>
+                            <h5 class="tl-title">Amperslash Toronto </h5>
+                            <p class="para"><strong>(Later renamed SerpBook)</strong><br> 2014 - 2016 </p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
                                 <h5 class="tl-title-2">Research Consultant</h5>
                                 <p class="para">
-                                    <ul> Creating, modifying, servicing & managing web accounts</ul>
-                                    <ul>Travelling to meet with clients internationally</ul>
-                                    <ul>Conducting research and creating relationships to to increase the company’s overall client base</ul>
-                                        <ul>Mentoring, training & managing new employees</ul>
-                                        
+                                    <ul>Creating, modifying, servicing & managing web accounts</ul>
+                                    <ul>Travelling to meet with clients internationally </ul>
+                                    <ul>Researching to create relationships that increase the company’s client base</ul>
+                                    <ul>Pitching business strategies to prospective clients</ul> 
+                                    <ul>Organizing, mentoring, training & managing new employees</ul>
+                                        <ul>Forged professional relationships with superiors on extensive projects</ul>
                                 </p>
            
                             </div>
@@ -288,13 +284,13 @@
                     <div class="timeline">
                         <div class="left-tl-content">
                             <h5 class="tl-title">University of Toronto School of Continuing Studies
-</h5>
+                            </h5>
                             <p class="para">2022 - 2023</p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
                                 <h5 class="tl-title-2">Full Stack Development
-</h5>
+            </h5>
                                 <p class="para">
                                     
                                   <ul></ul>Built websites using browser based languages
@@ -321,34 +317,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="timeline">
-                        <div class="left-tl-content">
-                            <h5 class="tl-title">Glenforest Secondary School</h5>
-                            <p class="para">2010-2013</p>
-                        </div>
-                        <div class="right-tl-content">
-                            <div class="tl-content">
-                                <h5 class="tl-title-2">International Baccalaureate Program</h5>
-                                <p class="para">
-                                  <uL>200+ hours of community service</ul> 
-                                  <uL>Head of the Anti-bullying commitee</ul>
-                                  </p>
-                        </div>
-                    </div>
-                </section>
+                        
                 <section class="awards sect">
                     <h2 class="right-title">Awards</h2>
                     <div class="timeline">
                         <div class="left-tl-content">
-                            <h5 class="tl-title">Best new realtor</h5>
+                            <h5 class="tl-title">Re/Max's Best New Realtor</h5>
                             <p class="para">December 2021</p>
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">Youngest employee in the Brokerage</h5>
+                                <h5 class="tl-title-2">Award of Excellence</h5>
                                 <p class="para">
-                                  So grateful to my clients, family, friends and coworkers for this incredible honour
-                                </p>
+                                   <ul></ul>  I received an award of excellence for the year 2021. 
+                                 <ul></ul> This award from Re/Max, one of the top brokerages in Canada, 
+                              <ul></ul> was for exceeding sales targets for the year
+                              </p>
                             </div>
                         </div>
                     </div>
@@ -359,10 +343,11 @@
                         </div>
                         <div class="right-tl-content">
                             <div class="tl-content">
-                                <h5 class="tl-title-2">The Star Employee</h5>
+                                <h5 class="tl-title-2">Period of July 2022</h5>
                                 <p class="para">
-                                    <uL></uL>Assisted broker manager with operational service levels & performance standards
-                                    <ul></ul>Developed processes for improved workflow and increased effectiveness and efficiency
+                                    <uL></uL>Most listings in a brokerage of 130+ agents for the month
+                                    <ul></ul> This award from Re/Max, one of the top brokerages in Canada, 
+                                    <ul></ul> was for exceeding sales targets for the month
                                 </p>
                             </div>
                         </div>
