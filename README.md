@@ -11,4 +11,4 @@
 ![image](https://user-images.githubusercontent.com/114966651/210932508-55ceefd4-4153-4f1c-b93b-8588d931e1ce.png)
 
 
-deployed application can be viewed at: https://sophack.github.io/resume/
+## Deployed application can be viewed at: https://sophack.github.io/resume/
